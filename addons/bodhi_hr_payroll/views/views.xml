@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="bodhi_hr_payroll.list">
+      <field name="name">bodhi_hr_payroll list</field>
+      <field name="model">bodhi_hr_payroll.bodhi_hr_payroll</field>
+      <field name="arch" type="xml">
+        <list>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </list>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="bodhi_hr_payroll.action_window">
+      <field name="name">bodhi_hr_payroll window</field>
+      <field name="res_model">bodhi_hr_payroll.bodhi_hr_payroll</field>
+      <field name="view_mode">list,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="bodhi_hr_payroll.action_server">
+      <field name="name">bodhi_hr_payroll server</field>
+      <field name="model_id" ref="model_bodhi_hr_payroll_bodhi_hr_payroll"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "list,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="bodhi_hr_payroll" id="bodhi_hr_payroll.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="bodhi_hr_payroll.menu_1" parent="bodhi_hr_payroll.menu_root"/>
+    <menuitem name="Menu 2" id="bodhi_hr_payroll.menu_2" parent="bodhi_hr_payroll.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="bodhi_hr_payroll.menu_1_list" parent="bodhi_hr_payroll.menu_1"
+              action="bodhi_hr_payroll.action_window"/>
+    <menuitem name="Server to list" id="bodhi_hr_payroll" parent="bodhi_hr_payroll.menu_2"
+              action="bodhi_hr_payroll.action_server"/>
+-->
+  </data>
+</odoo>

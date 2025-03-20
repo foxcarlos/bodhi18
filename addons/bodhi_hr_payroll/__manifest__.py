@@ -1,19 +1,19 @@
 {
-    "name": "bodhi_hr_payroll",
+    "name": "Bodhi HR Payroll, Planning, Attendance, Employees",
     "summary": """Bodhi-Tree Customisation for the modules, Payroll, Planning, Attendance, Employees, etc.""",
     "author": "Nativo, Carlos Alberto Garcia Diaz, Odoo Community Association (OCA)",
     "website": "",
     "category": "Human Resources/Employees",
-    "version": "18.0",
+    "version": "18.0.0.0",
     "depends": [
         "base",
         "hr",
         "planning",
         "hr_attendance",
-        "employees",
     ],
     "data": [
         # "security/ir.model.access.csv",
+        "views/hr_employee_views.xml",
     ],
     "application": False,
     "installable": True,

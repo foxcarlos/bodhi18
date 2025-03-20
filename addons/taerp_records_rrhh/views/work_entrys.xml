@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+<record id="work_entry_type_compulsory_holiday_leave" model="hr.work.entry.type">
+            <field name="name">Compulsory Holidays</field>
+            <field name="code">LEAVE130</field>
+            <field name="is_leave">True</field>
+            <field name="color">5</field>
+        </record>
+
+         <record id="work_entry_type_no_compulsory_holiday_leave" model="hr.work.entry.type">
+            <field name="name">Non-Compulsory Holidays</field>
+            <field name="code">LEAVE140</field>
+            <field name="is_leave">True</field>
+            <field name="color">5</field>
+        </record>
+        <record id="work_entry_type_freeday_leave" model="hr.work.entry.type">
+            <field name="name">Time Off</field>
+            <field name="code">LEAVE150</field>
+            <field name="is_leave">True</field>
+            <field name="color">5</field>
+        </record>
+         <record id="work_entry_type_freeday_worked_leave" model="hr.work.entry.type">
+            <field name="name">Time Off worked</field>
+            <field name="code">LEAVE160</field>
+            <field name="is_leave">True</field>
+            <field name="color">5</field>
+        </record>
+
+            </data>
+
+</odoo>

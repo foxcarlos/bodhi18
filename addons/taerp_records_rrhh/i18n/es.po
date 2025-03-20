@@ -1,0 +1,976 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* taerp_records_rrhh
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 15:09+0000\n"
+"PO-Revision-Date: 2023-10-23 09:13-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__10
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__10
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__10
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__10
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__10
+msgid "10"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__11
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__11
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__11
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__11
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__11
+msgid "11"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__12
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__12
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__12
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__12
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__12
+msgid "12"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__13
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__13
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__13
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__13
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__13
+msgid "13"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__14
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__14
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__14
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__14
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__14
+msgid "14"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__15
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__15
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__15
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__15
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__15
+msgid "15"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__16
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__16
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__16
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__16
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__16
+msgid "16"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__17
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__17
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__17
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__17
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__17
+msgid "17"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__18
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__18
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__18
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__18
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__18
+msgid "18"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__19
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__19
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__19
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__19
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__19
+msgid "19"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__20
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__20
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__20
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__20
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__20
+msgid "20"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__21
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__21
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__21
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__21
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__21
+msgid "21"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__22
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__22
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__22
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__22
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__22
+msgid "22"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__23
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__23
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__23
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__23
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__23
+msgid "23"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_one__24
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_categ_two__24
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_day_shift__24
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_mixed_shift__24
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__res_config_settings__average_hours_night_shift__24
+msgid "24"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" role=\"img\" aria-label=\"Values set here are company-specific."
+"\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=“Los valores establecidos aquí "
+"son específicos de la empresa.” role=\"img\" aria-label=\"Los valores "
+"establecidos aquí son específicos de la empresa.\" groups=\"base."
+"group_multi_company\"/>"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid ""
+"<span> Hours</span>\n"
+"                                <br/>"
+msgstr ""
+"<span> Horas</span>\n"
+"                                <br/>"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid ""
+"<span> Hours</span>\n"
+"                                <br/>\n"
+"                                <br/>"
+msgstr ""
+"<span> Horas</span>\n"
+"                                <br/>\n"
+"                                <br/>"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "<span> Minutes</span>"
+msgstr "<span> Minutos</span>"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid ""
+"<span> Minutes</span>\n"
+"                                    <br/>\n"
+"                                    <br/>"
+msgstr ""
+"<span> Minutos</span>\n"
+"                                    <br/>\n"
+"                                    <br/>"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "<span>Time Period </span>"
+msgstr "<span>Período de tiempo </span>"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid ""
+"Allow a period of time (around working hours) where extra time will not be "
+"counted, in benefit of the company"
+msgstr ""
+"Permitir un periodo de tiempo (en torno a las horas de trabajo) en el que "
+"no se contará el tiempo extra, en beneficio de la empresa"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid ""
+"Allow a period of time (around working hours) where extra time will not be "
+"deducted, in benefit of the employee"
+msgstr ""
+"Permitir un período de tiempo (alrededor de las horas de trabajo) donde no "
+"se deducirá el tiempo extra, en beneficio del empleado"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_hr_attendance
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.bodhi_attendance_report_view_pivot
+msgid "Attendance"
+msgstr "Asistencia"
+
+#. module: taerp_records_rrhh
+#: model:hr.work.entry.type,name:taerp_records_rrhh.work_entry_type_work_hours_fix
+msgid "Attendance Adjusted"
+msgstr "Asistencia Ajustada (Horas)"
+
+#. module: taerp_records_rrhh
+#: model:ir.actions.act_window,name:taerp_records_rrhh.bodhi_attendance_report_action
+#: model:ir.actions.act_window,name:taerp_records_rrhh.bodhi_attendance_report_action_filtered
+msgid "Attendance Analysis"
+msgstr "Análisis de asistencia"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_employee__attendance_break_state
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_employee_public__attendance_break_state
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_users__attendance_break_state
+msgid "Attendance Break Status"
+msgstr "Estado de interrupción de asistencia"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_bodhi_attendance_report
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.bodhi_attendance_report_view_graph
+msgid "Attendance Statistics"
+msgstr "Estadísticas de Asistencia"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "Average hours for Category One Shift"
+msgstr "Media de horas para el turno de categoría uno"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__average_hours_day_shift
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "Average hours for Day Shift"
+msgstr "Promedio de horas para el turno de día"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__average_hours_mixed_shift
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "Average hours for Mixed Shift"
+msgstr "Promedio de horas por Turno Mixto"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__average_hours_night_shift
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "Average hours for Night Shift"
+msgstr "Promedio de horas para Turno Nocturno"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__average_hours_categ_one
+msgid "Average hours for especial category one"
+msgstr "Media de horas para la categoría especial uno"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__average_hours_categ_two
+msgid "Average hours for especial category two"
+msgstr "Media de horas para la categoría especial dos"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Bon Appetite"
+msgstr "Buen apetito"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__hr_attendance__type__break
+#, python-format
+msgid "Break"
+msgstr "Descanso"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__break_expected_hours
+msgid "Break Expected Hours"
+msgstr "Hrs Esp Desc"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__break_hours
+msgid "Break Hours"
+msgstr "Hrs Descanso"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__break_hours_difference
+msgid "Break Hours Difference"
+msgstr "Hrs Dif Desc"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__hr_employee__attendance_break_state__break_in
+#, python-format
+msgid "Break in"
+msgstr "Entrada de descanso"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__hr_employee__attendance_break_state__break_out
+#, python-format
+msgid "Break out"
+msgstr "Salida de descanso"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_attendance.py:0
+#, python-format
+msgid ""
+"Cannot create new attendance record for %(empl_name)s, the employee hasn't "
+"checked out since %(datetime)s"
+msgstr ""
+"No se puede crear una nuevo registro de asistencia para %(empl_name)s, el "
+"empleado no ha registrado su salida desde %(datetime)s"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_attendance.py:0
+#, python-format
+msgid ""
+"Cannot create new attendance record for %(empl_name)s, the employee was "
+"already checked in on %(datetime)s"
+msgstr ""
+"No se puede crear un nuevo registro de asistencia para %(empl_name)s, su "
+"entrada ya fue registrada a las %(datetime)s"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/employee_id.py:0
+#, python-format
+msgid ""
+"Cannot perform break out on %(empl_name)s, could not find corresponding "
+"break in. Your attendances have probably been modified manually by human "
+"resources."
+msgstr ""
+"No se puede registrar la entrada de descanso de  %(empl_name)s, no se ha "
+"encontrado su registro de salida a descanso correspondiente. Sus registros "
+"posiblemente han sido manualmente modificados por recursos humanos."
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/employee_id.py:0
+#, python-format
+msgid ""
+"Cannot perform check out on %(empl_name)s, could not find corresponding "
+"check in. Your attendances have probably been modified manually by human "
+"resources."
+msgstr ""
+"No se puede registrar la salida de  %(empl_name)s, no se ha encontrado su "
+"registro de entrada correspondiente. Sus registros posiblemente han sido "
+"manualmente modificados por recursos humanos."
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__check_in
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_attendance__check_in
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_attendance__expected_check_in
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_attendance__planing_check_in
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.bodhi_attendance_report_view_search
+msgid "Check In"
+msgstr "Entrada"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Checked in at"
+msgstr "Entrada registrada a las"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Checked out at"
+msgstr "Salida registrada a las"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Click to"
+msgstr "Haz clic para"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Company Logo"
+msgstr "Logo de la empresa"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid ""
+"Compare attendance with total shift allocated\n"
+"                                hours by employee."
+msgstr ""
+"Compare la asistencia con el turno total asignado\n"
+"                                  horas por empleado."
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_payslip.py:0
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__holiday
+#, python-format
+msgid "Compulsory Holiday"
+msgstr "Hrs Fer Oblig"
+
+#. module: taerp_records_rrhh
+#: model:hr.work.entry.type,name:taerp_records_rrhh.work_entry_type_compulsory_holiday_leave
+msgid "Compulsory Holidays"
+msgstr "Trabajo en Feriado obligatorio"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__department_id
+msgid "Department"
+msgstr "Departamento"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_payslip.py:0
+#, python-format
+msgid "Días incompletos"
+msgstr "Días Incomp"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__early_checkin_threshold
+msgid "Early Check-in Tolerance"
+msgstr "Tolerancia de registro anticipado"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_hr_payroll_edit_payslip_worked_days_line
+msgid "Edit payslip line wizard worked days"
+msgstr "Asistente de edición de líneas de recibo de nómina días trabajados"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_hr_employee
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__employee_id
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.bodhi_attendance_report_view_search
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.view_attendance_tree_incomplete
+msgid "Employee attendances"
+msgstr "Asistencias del empleado"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Error: could not find corresponding employee."
+msgstr "Error: No se pudo encontrar al empleado correspondiente."
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__overtime_hours
+msgid "Extra Hours"
+msgstr "Hrs Extra"
+
+#. module: taerp_records_rrhh
+#: model:hr.work.entry.type,name:taerp_records_rrhh.work_entry_type_extra_hours_fix
+msgid "Extra Hours Adjusted"
+msgstr "Horas Extra Ajustadas"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid ""
+"Extra Hours by Shift\n"
+"                                Type"
+msgstr ""
+"Horas extra por turno\n"
+"                                Tipo"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__over_time_shift_type
+msgid "Extra hours by Shift Type"
+msgstr "Horas extra por tipo de turno"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__free_time
+msgid "Free"
+msgstr "Hrs en Libre"
+
+#. module: taerp_records_rrhh
+#: model:hr.work.entry.type,name:taerp_records_rrhh.work_entry_type_extra_hours_free
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__free_overtime_hours
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_attendance__time_diff_check_in
+msgid "Free Extra Hours"
+msgstr "Hrs Ext Lib"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_payslip.py:0
+#, python-format
+msgid "Global Leaves"
+msgstr "Permisos globales"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Go back"
+msgstr "Atras"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Goodbye"
+msgstr "Adiós"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.bodhi_attendance_report_view_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.bodhi_attendance_report_view_search
+msgid "HR Attendance Search"
+msgstr "Búsqueda de asistencia de recursos humanos"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Hello again"
+msgstr "Hola de nuevo"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_payslip.py:0
+#: model:hr.work.entry.type,name:taerp_records_rrhh.work_entry_type_extra_hours_holiday
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__holiday_overtime_hours
+#, python-format
+msgid "Holiday Extra Hours"
+msgstr "Hrs Ext Fer"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__worked_hours
+msgid "Hours Worked"
+msgstr "Hrs Procesad"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__id
+msgid "ID"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Identify Manually"
+msgstr "Identificar manualmente"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__incomplete_count
+msgid "Incomplete Count"
+msgstr "Incompletos contados"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__incomplete_days
+msgid "Incomplete Days"
+msgstr "Días Incomp"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__incomplete_hours
+msgid "Incomplete Hours"
+msgstr "Hrs Incomp"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Invalid request, please return to the main menu."
+msgstr "Solicitud inválida, por favor regrese al menú principal."
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_planning_slot__is_holiday
+msgid "Is Compulsory Holiday"
+msgstr "Es Feriado obligatorio"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_planning_slot__is_free
+msgid "Is Free"
+msgstr "Es libre"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_planning_slot__is_no_compuholiday
+msgid "Is No-Compulsory Holiday"
+msgstr "Es Feriado no obligatorio"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_employee__last_attendance_break_id
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_employee_public__last_attendance_break_id
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_users__last_attendance_break_id
+msgid "Last Attendance Break"
+msgstr "Última pausa de asistencia"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__late_checkin_threshold
+msgid "Late Check-in Tolerance"
+msgstr "Tolerancia de registro tardío"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/employee_id.py:0
+#, python-format
+msgid "No employee corresponding to Badge ID '%(barcode)s.'"
+msgstr ""
+"No hay ningún empleado correspondiente a la ID de credencial '%(barcode)s'."
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__no_compuholiday
+msgid "No-Compulsory Holiday"
+msgstr "Hrs Fer No Ob"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_payslip.py:0
+#, python-format
+msgid "Non-Compulsory Holiday"
+msgstr "Feriado no obligatorio"
+
+#. module: taerp_records_rrhh
+#: model:hr.work.entry.type,name:taerp_records_rrhh.work_entry_type_no_compulsory_holiday_leave
+msgid "Non-Compulsory Holidays"
+msgstr "Trabajo en Feriado no obligatorio"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__worked_hours_rounded
+msgid "Normal Hours Worked"
+msgstr "Hrs Ordinar"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_payroll_edit_payslip_worked_days_line__number_of_days_copy
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_payslip_worked_days__number_of_days_copy
+msgid "Number of Days"
+msgstr "Numero de Dias"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_payslip__day_register
+msgid "Number of Marks"
+msgstr "Cantidad de Marcas"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "OK"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_attendance__outside
+msgid "Outside"
+msgstr "Fuera de"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_res_config_settings__over_time_start_from
+msgid "Over Time Start From"
+msgstr "Tiempo extraordinario Empezar desde"
+
+#. module: taerp_records_rrhh
+#: model:hr.work.entry.type,name:taerp_records_rrhh.hr_work_entry_type_partial_attendance
+msgid "Partial Attendance"
+msgstr "Asistencia Parcial"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_hr_payslip
+msgid "Pay Slip"
+msgstr "Recibo de nómina"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_hr_payslip_worked_days
+msgid "Payslip Worked Days"
+msgstr "Días trabajados en el recibo de nómina"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_planning_slot
+msgid "Planning Shift"
+msgstr "Planificar turnos"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Please enter your PIN to"
+msgstr "Por favor ingrese su PIN para"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Please return to the main menu."
+msgstr "Vuelva al menú principal."
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_hr_employee_public
+msgid "Public Employee"
+msgstr "Empleado Público"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__raw_work_hours
+msgid "Raw Worked Hours"
+msgstr "Hrs Sin Proc"
+
+#. module: taerp_records_rrhh
+#: model:ir.ui.menu,name:taerp_records_rrhh.menu_bodhi_attendance_report
+msgid "Reports"
+msgstr "Análisis"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_resource_calendar_leaves
+msgid "Resource Time Off Detail"
+msgstr "Detalle de las ausencias del recurso"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Scan your badge"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Sign in"
+msgstr "Iniciar sesión"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Sign out"
+msgstr "desconectar"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_resource_calendar_leaves__date
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "Start From"
+msgstr "Empezar desde"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_payslip.py:0
+#, python-format
+msgid "Tiempo laborado"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_payslip.py:0
+#: model:hr.work.entry.type,name:taerp_records_rrhh.work_entry_type_freeday_leave
+#, python-format
+msgid "Time Off"
+msgstr "Libre"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/hr_payslip.py:0
+#, python-format
+msgid "Time Off Worked"
+msgstr "Libre Trabajado"
+
+#. module: taerp_records_rrhh
+#: model:hr.work.entry.type,name:taerp_records_rrhh.work_entry_type_freeday_worked_leave
+msgid "Time Off worked"
+msgstr "Libre Trabajado"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.bodhi_attendance_report_view_search
+msgid "Today"
+msgstr "Hoy"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "Tolerance Time In Favor Of Company"
+msgstr "Tiempo de tolerancia a favor de la empresa"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_attendance_res_config_settings_inherited_view_form
+msgid "Tolerance Time In Favor Of Employee"
+msgstr "Tiempo de tolerancia a favor del empleado"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_payslip_hide_amount_view
+msgid "Total Amount"
+msgstr "Cantidad total"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_payslip_hide_amount_view
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_payslip_line_edit_amount_view
+msgid "Total Working Days"
+msgstr "Días Totales Trabajados"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.hr_payslip_hide_amount_view
+msgid "Total Working Days(count)"
+msgstr "Días Totales Trabajados"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Total extra hours:"
+msgstr "Horas extra totales:"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_hr_attendance__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: taerp_records_rrhh
+#: model:ir.model,name:taerp_records_rrhh.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Want to check out?"
+msgstr "¿Quieres salir?"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid ""
+"Warning : Your user should be linked to an employee to use attendance. "
+"Please contact your administrator."
+msgstr ""
+"Advertencia: su usuario debe estar vinculado a un empleado para usar la "
+"asistencia. Póngase en contacto con su administrador."
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Welcome"
+msgstr "Bienvenidos"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Welcome to"
+msgstr "Bienvenido a"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Welcome!"
+msgstr "¡Bienvenidos!"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Went back to work at"
+msgstr "Volvió a trabajar en"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Went to rest in"
+msgstr "fue a descansar en"
+
+#. module: taerp_records_rrhh
+#: model_terms:ir.ui.view,arch_db:taerp_records_rrhh.view_attendance_tree_incomplete
+msgid "Work Hours"
+msgstr "Horas laborales"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "Work Time"
+msgstr "Tiempo de Trabajo"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__worked_days
+msgid "Worked Days"
+msgstr "Días Ordinar"
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields.selection,name:taerp_records_rrhh.selection__hr_attendance__type__normal
+msgid "Working Time"
+msgstr "Horario de trabajo"
+
+#. module: taerp_records_rrhh
+#: code:addons/taerp_records_rrhh/models/employee_id.py:0
+#, python-format
+msgid "Wrong PIN"
+msgstr "Pin erróneo"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "break out"
+msgstr "salida de descanso"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "check in"
+msgstr "registrar entrada"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "check out"
+msgstr "registrar salida"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "check out or break in"
+msgstr "echa un vistazo o entra"
+
+#. module: taerp_records_rrhh
+#. openerp-web
+#: code:addons/taerp_records_rrhh/static/src/xml/attendance.xml:0
+#, python-format
+msgid "or"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__res_id
+msgid "res_id"
+msgstr ""
+
+#. module: taerp_records_rrhh
+#: model:ir.model.fields,field_description:taerp_records_rrhh.field_bodhi_attendance_report__shift_value
+msgid "shift_value"
+msgstr ""

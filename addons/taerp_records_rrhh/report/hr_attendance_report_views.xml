@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bodhi_attendance_report_view_search" model="ir.ui.view">
+        <field name="name">bodhi.attendance.report.view.search</field>
+        <field name="model">bodhi.attendance.report</field>
+        <field name="arch" type="xml">
+            <search string="HR Attendance Search">
+                <field name="employee_id"/>
+                <field name="department_id" operator="child_of"/>
+                <filter name="check_in" string="Check In" date="check_in"/>
+                <filter string="Today" name="today" domain="[ ('check_in', '&gt;=', (context_today() + relativedelta(days=-1)).strftime('%Y-%m-%d')), ('check_in', '&lt;', context_today().strftime('%Y-%m-%d'))]"/>
+
+                <group expand="0" string="Group By">
+                    <filter string="Employee" name="groupby_employee" context="{'group_by': 'employee_id'}"/>
+                    <filter string="Check In" name="groupby_check_in" context="{'group_by': 'check_in'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="bodhi_attendance_report_view_pivot" model="ir.ui.view">
+        <field name="name">bodhi.attendance.report.view.pivot</field>
+        <field name="model">bodhi.attendance.report</field>
+        <field name="arch" type="xml">
+            <pivot string="Attendance" disable_linking="1">
+                <field name="employee_id" type="row"/>
+                <field name="check_in" type="col"/>
+
+                <field name="raw_work_hours" type="measure" widget="float_time"/>
+                <field name="worked_hours" type="measure" widget="float_time"/>
+
+                <field name="break_expected_hours" type="measure" widget="float_time"/>
+                <field name="break_hours" type="measure" widget="float_time"/>
+                <field name="break_hours_difference" type="measure" widget="float_time"/>
+                 <field name="worked_days" type="measure" />
+                <field name="worked_hours_rounded" type="measure" widget="float_time"/>
+                <field name="incomplete_hours" type="measure" widget="float_time"/>
+                <field name="incomplete_days" type="measure" />
+                <field name="holiday" type="measure" widget="float_time"/>
+                <field name="free_time" type="measure" widget="float_time"/>
+                <field name="no_compuholiday" type="measure" widget="float_time"/>
+
+                <field name="holiday_overtime_hours" type="measure" widget="float_time"/>
+                <field name="overtime_hours" type="measure" widget="float_time"/>
+            </pivot>
+        </field>
+    </record>
+
+    <record id="bodhi_attendance_report_view_graph" model="ir.ui.view">
+        <field name="name">bodhi.attendance.report.view.graph</field>
+        <field name="model">bodhi.attendance.report</field>
+        <field name="arch" type="xml">
+            <graph string="Attendance Statistics" stacked="0" disable_linking="1">
+                <field name="employee_id"/>
+                <field name="check_in"/>
+                <field name="overtime_hours" type="measure" />
+                <field name="worked_hours" type="measure" />
+                <field name="break_expected_hours" type="measure"/>
+                <field name="break_hours" type="measure"/>
+                <field name="break_hours_difference" type="measure" />
+                <field name="holiday" type="measure"/>
+                <field name="no_compuholiday" type="measure" />
+            </graph>
+        </field>
+    </record>
+
+    <record id="bodhi_attendance_report_action" model="ir.actions.act_window">
+        <field name="name">Attendance Analysis</field>
+        <field name="res_model">bodhi.attendance.report</field>
+        <field name="view_mode">pivot</field>
+        <field name="search_view_id" ref="bodhi_attendance_report_view_search"/>
+        <field name="context">{'group_by': ['check_in:day', 'employee_id'],"search_default_check_in":1}</field>
+    </record>
+
+    <record id="bodhi_attendance_report_action_filtered" model="ir.actions.act_window">
+        <field name="name">Attendance Analysis</field>
+        <field name="res_model">bodhi.attendance.report</field>
+        <field name="view_mode">pivot</field>
+        <field name="search_view_id" ref="bodhi_attendance_report_view_search"/>
+        <field name="context">{
+            'group_by': ['check_in:day', 'employee_id'],
+            'search_default_department_id': [active_id],
+            "search_default_check_in":1}
+        </field>
+    </record>
+
+    <menuitem
+        id="menu_bodhi_attendance_report"
+        name="Reports"
+        sequence="30"
+        parent="hr_attendance.menu_hr_attendance_root"
+        action="bodhi_attendance_report_action"
+        groups="group_hr_attendance_user"/>
+</odoo>

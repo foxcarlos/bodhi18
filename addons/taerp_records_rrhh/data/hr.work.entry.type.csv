@@ -1,0 +1,8 @@
+id,name,code,color,round_days,round_days_type
+hr_work_entry_contract.work_entry_type_extra_hours,Extra Hours,WORK300,8,No Rounding,Down
+taerp_records_rrhh.hr_work_entry_type_partial_attendance,Partial Attendance,WORK50,0,No Rounding,Down
+taerp_records_rrhh.work_entry_type_extra_hours_holiday,Hrs Ext Fer Oblig,WORK350,8,No Rounding,Down
+taerp_records_rrhh.work_entry_type_extra_hours_fix,Extra Hours Adjusted,WORK165,8,No Rounding,Down
+taerp_records_rrhh.work_entry_type_work_hours_fix,Attendance Adjusted,WORK105,8,No Rounding,Down
+taerp_records_rrhh.work_entry_type_extra_hours_free,Free Extra Hours,LEAVE155,8,No Rounding,Down
+taerp_records_rrhh.work_entry_type_extra_hours_holiday_no,Hrs Ext Fer No Ob,WORK325,8,No Rounding,Down

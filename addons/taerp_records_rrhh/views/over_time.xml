@@ -20,53 +20,54 @@
                                   role="img"
                                   aria-label="Values set here are company-specific."
                                   groups="base.group_multi_company"/>
-                            <label for="over_time_shift_type"
-                                   class="o_form_label">Extra Hours by Shift
-                                Type
+                            <label for="over_time_shift_type" class="o_form_label">
+                                Extra Hours by Shift Type
                             </label>
                             <div class="text-muted">
                                 Compare attendance with total shift allocated
                                 hours by employee.
                             </div>
                             <div class="mt16" invisible="over_time_shift_type == False" required="over_time_shift_type == True">
-<!--                            <div class="mt16" attrs="{'invisible': [('over_time_shift_type', '=', False)],-->
-<!--                                                          'required': [('over_time_shift_type', '=', True)]}">-->
 
-                                <label for="over_time_start_from"
-                                       string="Start From"
-                                       class="o_form_label"/>
-                                <field name="over_time_start_from"
-                                       class="col-lg-3 p-0"/>
+                                <div class="mt16">
+                                    <label for="over_time_start_from" class="o_light_label" string="Start From"/>
+                                    <field name="over_time_start_from" class="oe_inline col-4 col-lg-2 me-1 text-center"/>
+                                </div>
                                 <br/>
-                                <label for="average_hours_day_shift"
-                                       string="Average hours for Day Shift"
-                                       class="o_form_label"/>
-                                <field name="average_hours_day_shift"
-                                       class="col-lg-3 p-0"/><span> Hours</span>
+
+                                <div class="mt16">
+                                    <label for="average_hours_day_shift" class="o_light_label" string="Average hours for Day Shift"/>
+                                    <field name="average_hours_day_shift" class="oe_inline col-4 col-lg-2 ms-3 me-1 text-center"/>
+                                    <span> Hours</span>
+                                </div>
                                 <br/>
-                                <label for="average_hours_mixed_shift"
-                                       string="Average hours for Mixed Shift"
-                                       class="o_form_label"/>
-                                <field name="average_hours_mixed_shift"
-                                       class="col-lg-3 p-0"/><span> Hours</span>
+
+                                <div class="mt16">
+                                    <label for="average_hours_mixed_shift" class="o_light_label" string="Average hours for Mixed Shift"/>
+                                    <field name="average_hours_mixed_shift" class="oe_inline col-4 col-lg-2 ms-3 me-1 text-center"/>
+                                    <span> Hours</span>
+                                </div>
                                 <br/>
-                                <label for="average_hours_night_shift"
-                                       string="Average hours for Night Shift"
-                                       class="o_form_label"/>
-                                <field name="average_hours_night_shift"
-                                       class="col-lg-3 p-0"/><span> Hours</span>
+
+                                <div class="mt16">
+                                    <label for="average_hours_night_shift" class="o_light_label" string="Average hours for Night Shift"/>
+                                    <field name="average_hours_night_shift" class="oe_inline col-4 col-lg-2 ms-3 me-1 text-center"/>
+                                    <span> Hours</span>
+                                </div>
                                 <br/>
-                                <label for="average_hours_categ_one"
-                                       string="Average hours for Category One Shift"
-                                       class="o_form_label"/>
-                                <field name="average_hours_categ_one"
-                                       class="col-lg-3 p-0"/><span> Hours</span>
+
+                                <div class="mt16">
+                                    <label for="average_hours_categ_one" class="o_light_label" string="Average hours for Category One Shift"/>
+                                    <field name="average_hours_categ_one" class="oe_inline col-4 col-lg-2 ms-3 me-1 text-center"/>
+                                    <span> Hours</span>
+                                </div>
                                 <br/>
-                                 <label for="average_hours_categ_two"
-                                       string="Average hours for Category One Shift"
-                                       class="o_form_label"/>
-                                <field name="average_hours_categ_two"
-                                       class="col-lg-3 p-0"/><span> Hours</span>
+
+                                <div class="mt16">
+                                    <label for="average_hours_categ_two" class="o_light_label" string="Average hours for Category Two Shift"/>
+                                    <field name="average_hours_categ_two" class="oe_inline col-4 col-lg-2 ms-3 me-1 text-center"/>
+                                    <span> Hours</span>
+                                </div>
                                 <br/>
                                 <br/>
                                 <label for="overtime_company_threshold" class="o_form_label">
@@ -76,8 +77,6 @@
                                         Allow a period of time (around working hours) where extra time will not be counted, in benefit of the company
                                     </div>
                                     <span>Time Period </span><field name="overtime_company_threshold" class="text-center oe_inline" required="over_time_shift_type == True"/><span> Minutes</span>
-<!--                                    <span>Time Period </span><field name="overtime_company_threshold" class="text-center oe_inline"-->
-<!--                                        attrs="{'required': [('over_time_shift_type', '=', True)]}"/><span> Minutes</span>-->
                                     <br/>
                                     <br/>
                                     <label for="overtime_employee_threshold" class="o_form_label">
@@ -87,10 +86,6 @@
                                         Allow a period of time (around working hours) where extra time will not be deducted, in benefit of the employee
                                     </div>
                                     <span>Time Period </span><field name="overtime_employee_threshold" class="text-center oe_inline" required="over_time_shift_type == True"/><span> Minutes</span>
-<!--                                    <span>Time Period </span><field name="overtime_employee_threshold" class="text-center oe_inline"-->
-<!--                                        attrs="{'required': [('over_time_shift_type', '=', True)]}"/><span> Minutes</span>-->
-
-
                             </div>
                         </div>
                     </div>
